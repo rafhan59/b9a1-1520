@@ -13,10 +13,15 @@
 }
 
 .btn{
-    background: #F00;
+    background: rgba(255, 0, 0, 0.9);
     border-radius: 8px;
     color: #fff;
     text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgba(255, 0, 0, 0.6);
+    color: #fff;
 }
 
 .container {
@@ -189,7 +194,6 @@ header{
 .location{
     margin-top: 9.75rem;
     background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.0), rgba(255, 0, 0, 0.10));
-    width: 100%;
     height: 30rem;
     border-radius: 0.5rem;
     display: flex;
@@ -232,12 +236,14 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 7.5rem;
-
 }
 .text-left{
     text-align: left;
 }
-.best-offer h1{
+.best-offer{
+    max-width: 25rem;
+}
+.hOne{
     color: #070211;
     font-size: 3rem;
     font-weight: 900;
@@ -257,13 +263,13 @@ header{
 .circular-img img{
     border: 1rem solid #F00;
     border-radius: 50%;
-    padding: 1rem;
+    padding: 2rem;
     height: 22rem;
     width: 22rem;
 }
 
 .new-year{
-    padding-left: 1.5rem;
+    padding: 3rem 0rem 0rem 4rem;
 }
 /* .flex-end{
     display: flex;
@@ -282,4 +288,100 @@ header{
     font-weight: 400;
     line-height: 2rem;
     font-family: 'Inter', sans-serif;
+}
+.new-year img{
+    margin-top: 2.75rem;
+}
+
+/* HOLIDAY SALE SECTION  */
+
+.holiday{
+    margin-top: 7.5rem;
+}
+.holiday > h3{
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.holiday > h1{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 1.75rem;
+}
+
+.holiday > h1 > span{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #F00;
+}
+
+
+
+/* THE BEST GIFTS */
+
+.pText{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 4.25rem;
+}
+
+.discount-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 0;
+}
+
+
+.gift p{
+    max-width: 62rem;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+/* SUBSCRIBE NEWSLETTER */
+
+.newsletter{
+    margin-top: 9.75rem;
+    background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.10));
+    height: 30rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe{
+    
+}
+.subscribe img{
+    display: block;
+    margin: 0 auto;
+}
+.subscribe > .hOne{
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+}
+.subscribe .pText{
+    max-width: 62rem;
+    margin-bottom: 3rem;
 }
