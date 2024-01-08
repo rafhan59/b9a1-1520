@@ -364,14 +364,15 @@ header{
 .newsletter{
     margin-top: 9.75rem;
     background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.10));
-    height: 30rem;
+    height: auto;
     border-radius: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5rem 0;
 }
 .subscribe{
-    
+    margin: 6.5rem 0;
 }
 .subscribe img{
     display: block;
@@ -384,4 +385,29 @@ header{
 .subscribe .pText{
     max-width: 62rem;
     margin-bottom: 3rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 6rem; */
+}
+form > input{
+    width: 28rem;
+    height: 4.5rem;
+    padding: 1.5rem;
+    border: none;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    /* border-radius: 50px; */
+}
+form .btn{
+    border: none;
+    padding: 1.71875rem 2rem;
+    border-radius: 0;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
 }
