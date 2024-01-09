@@ -446,6 +446,9 @@ form .btn{
     gap: 1rem;
     padding: 3rem 0;
 }
+.social > img{
+    cursor: pointer;
+}
 
 .bottom > .rights {
     display: flex;
