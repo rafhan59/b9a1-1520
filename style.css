@@ -400,6 +400,8 @@ form > input{
     border: none;
     border-top-left-radius: 35px;
     border-bottom-left-radius: 35px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
     /* border-radius: 50px; */
 }
 form .btn{
@@ -410,4 +412,46 @@ form .btn{
     text-transform: capitalize;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
+}
+
+
+/* FOOTER  */
+
+.content{
+    background: #070211;
+    height: auto;
+}
+
+.top, .middle{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.adress {
+    padding: 7.5rem 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.adress  p, .bottom p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-family: 'Inter', sans-serif;
+}
+.adress img{
+    padding:0.5rem 0.5rem 0 0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.bottom > .rights {
+    display: flex;
+    justify-content: space-between; 
+    padding: 3rem 0rem 7.5rem;
 }
